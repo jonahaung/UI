@@ -22,7 +22,6 @@ public struct TapToShowActionSheetView<Content: View>: View {
     public var body: some View {
         Button {
             showActionSheet = true
-            Vibration.medium.vibrate()
         } label: {
             content
         }
